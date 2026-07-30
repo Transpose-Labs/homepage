@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Top row: navy, blue, light-blue -->
+  <rect x="0"  y="0"  width="9" height="9" rx="2.2" fill="#1e2d4a"/>
+  <rect x="11" y="0"  width="9" height="9" rx="2.2" fill="#3d6fd4"/>
+  <rect x="22" y="0"  width="9" height="9" rx="2.2" fill="#5b8ef5"/>
+  <!-- Middle row: grey, navy, blue -->
+  <rect x="0"  y="11" width="9" height="9" rx="2.2" fill="#b0b5c4"/>
+  <rect x="11" y="11" width="9" height="9" rx="2.2" fill="#1e2d4a"/>
+  <rect x="22" y="11" width="9" height="9" rx="2.2" fill="#3d6fd4"/>
+  <!-- Bottom row: grey, grey, navy -->
+  <rect x="0"  y="22" width="9" height="9" rx="2.2" fill="#c8cdd8"/>
+  <rect x="11" y="22" width="9" height="9" rx="2.2" fill="#b0b5c4"/>
+  <rect x="22" y="22" width="9" height="9" rx="2.2" fill="#1e2d4a"/>
+</svg>
