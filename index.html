@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Transpose Labs — Coming Soon</title>
+<title>Transpose Labs — AI Advisory & Consulting</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
   :root {
@@ -74,6 +74,35 @@
     border-radius: 99px;
     margin: 0 auto 40px;
   }
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  @media (max-width: 540px) {
+    .services {
+      grid-template-columns: 1fr;
+    }
+  }
+  .service {
+    padding: 22px;
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    background: #fff;
+  }
+  .service h2 {
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+  .service p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--muted);
+  }
   .contact {
     font-size: 0.95rem;
     color: var(--muted);
@@ -102,12 +131,22 @@
 <body>
   <div class="card">
     <img class="logo-img" src="tl.png" alt="Transpose Labs">
-    <div class="badge">Coming Soon</div>
-    <h1>Something <span>cool</span> is coming.</h1>
+    <div class="badge">AI Advisory &amp; Consulting</div>
+    <h1>Turning data into <span>agentic</span> intelligence.</h1>
     <div class="divider"></div>
     <p class="tagline">
-      We turn complicated workflows into streamlined ones.<br>More details soon.
+      Hands-on advisory, not off-the-shelf software &mdash; we work alongside your team to get your data and workflows ready for AI.
     </p>
+    <div class="services">
+      <div class="service">
+        <h2>Data &amp; Semantic Layers</h2>
+        <p>We work alongside your team to build the semantic layers that let AI understand your data and analyse it reliably.</p>
+      </div>
+      <div class="service">
+        <h2>Agentic Workflows</h2>
+        <p>We work alongside your team to design workflows where AI handles the grunt work, with a human accountable at every key decision.</p>
+      </div>
+    </div>
     <div class="contact">
       Get in touch &mdash; <a href="mailto:hello@transposelabs.ai">hello@transposelabs.ai</a>
     </div>
