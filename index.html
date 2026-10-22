@@ -3,8 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Transpose Labs — AI Advisory & Consulting</title>
+<title>Transpose Labs | AI Advisory & Consulting</title>
+<meta name="description" content="Transpose Labs is a Sydney AI advisory and consulting team. We work alongside clients on service and product design and build solutions for their specific business problems, and make Transpose Skills, an AI compliance workflow for VET.">
+<link rel="canonical" href="https://transposelabs.ai/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://transposelabs.ai/">
+<meta property="og:title" content="Transpose Labs | AI Advisory & Consulting">
+<meta property="og:description" content="Moving your data stack and laborious workflows into the agentic era.">
+<meta property="og:image" content="https://transposelabs.ai/tl.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Transpose Labs",
+  "legalName": "Transpose Labs Pty Ltd",
+  "url": "https://transposelabs.ai/",
+  "logo": "https://transposelabs.ai/tl.png",
+  "email": "hello@transposelabs.ai",
+  "telephone": "+61 1300 250 407",
+  "taxID": "72 700 381 595",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1/457-459 Elizabeth Street",
+    "addressLocality": "Surry Hills",
+    "addressRegion": "NSW",
+    "postalCode": "2010",
+    "addressCountry": "AU"
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&display=swap" rel="stylesheet">
@@ -50,6 +80,7 @@
   .logo-img {
     width: 250px;
     max-width: 70%;
+    height: auto;
     margin-bottom: 32px;
   }
   .badge {
@@ -98,7 +129,50 @@
     font-weight: 700;
     letter-spacing: 0.3px;
     color: var(--navy);
-    margin-bottom: 48px;
+    margin-bottom: 26px;
+  }
+  .hero-cta {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .cta-note {
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--muted);
+    max-width: 420px;
+    margin: 0 auto 52px;
+  }
+  .btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s, transform 0.15s;
+  }
+  .btn-primary {
+    background: var(--blue);
+    color: #fff;
+    border: 1.5px solid var(--blue);
+  }
+  .btn-primary:hover {
+    background: #4f89ff;
+    border-color: #4f89ff;
+    transform: translateY(-1px);
+  }
+  .btn-secondary {
+    background: #fff;
+    color: var(--navy);
+    border: 1.5px solid var(--border);
+  }
+  .btn-secondary:hover {
+    border-color: var(--blue);
+    transform: translateY(-1px);
   }
 
   /* ---------- Services (discovery -> two paths) ---------- */
@@ -267,10 +341,11 @@
     height: 7px;
     border-radius: 50%;
     display: inline-block;
+    background: #8fb0f7;
   }
   .module-note {
     font-size: 0.72rem;
-    color: #6b7690;
+    color: #8892a8;
     margin-bottom: 30px;
   }
   .module-note b {
@@ -320,8 +395,8 @@
     p.tagline {
       font-size: 0.96rem;
     }
-    .team-line {
-      margin-bottom: 36px;
+    .cta-note {
+      margin-bottom: 40px;
     }
     .services-section {
       padding-bottom: 52px;
@@ -369,6 +444,13 @@
   .contact a:hover {
     border-bottom-color: var(--blue);
   }
+  .contact-sep {
+    margin: 0 8px;
+    color: #c0c6d0;
+  }
+  @media (max-width: 480px) {
+    .contact { line-height: 1.9; }
+  }
   .scheduler {
     margin-top: 24px;
     display: flex;
@@ -405,7 +487,7 @@
   .copyright {
     margin-top: 20px;
     font-size: 0.72rem;
-    color: #adb5bd;
+    color: var(--muted);
   }
 </style>
 </head>
@@ -413,20 +495,25 @@
 
   <header class="hero">
     <div class="container">
-      <img class="logo-img" src="tl.png" alt="Transpose Labs">
+      <img class="logo-img" src="tl.png" alt="Transpose Labs" width="2412" height="444">
       <div class="badge">AI Advisory &amp; Consulting</div>
       <h1>Moving your data stack and laborious workflows into <span>the agentic era</span></h1>
       <div class="divider"></div>
       <p class="tagline">
-        Hands-on advisory, not off-the-shelf software &mdash; we work alongside your team to get your data and workflows ready for AI.
+        We work alongside your team on service and product design, then build solutions for your specific business problems, with your data and workflows ready for AI.
       </p>
       <p class="team-line">From a team of data and applied AI engineers.</p>
+      <div class="hero-cta">
+        <a class="btn-primary" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0KZo0YPBsWmGmX6YPvcaYy1SbZwsw-Gmg6WfEIiUKhtPOaD2o_2WftJtqJYdAY6O-N33am4IF3" target="_blank" rel="noopener">Book a free discovery call</a>
+        <a class="btn-secondary" href="tel:+611300250407">Call 1300 250 407</a>
+      </div>
+      <p class="cta-note">The discovery call is free. It's our chance to get to know you, understand your business and the challenge you face.</p>
     </div>
   </header>
 
   <section class="services-section">
     <div class="container-wide">
-      <span class="discovery-badge">Every engagement starts with discovery</span>
+      <span class="discovery-badge">Every engagement starts with a free discovery call</span>
       <svg class="discovery-connector" viewBox="0 0 420 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M210,0 V14 M105,14 H315 M105,14 V30 M315,14 V30" fill="none" stroke="#c7d5f5" stroke-width="2"/>
       </svg>
@@ -448,28 +535,29 @@
 
   <section class="product-section">
     <div class="container">
-      <div class="product-badge">Part of the Transpose Labs solutions</div>
+      <div class="product-badge">A Transpose Labs product</div>
       <div class="product-copy">
         <h2>Transpose Skills</h2>
-        <p>The customisable AI compliance workflow for Vocational Education and Training (VET) &mdash; modular by design, so you only deploy what solves your problem.</p>
+        <p>The customisable AI compliance workflow for Vocational Education and Training (VET). Modular by design, so you only deploy what solves your problem.</p>
       </div>
       <div class="product-modules">
-        <span><i style="background:#12a150"></i>Assessment Tool Validation</span>
-        <span><i style="background:#12a150"></i>RPL &amp; Credit Transfer</span>
-        <span><i style="background:#12a150"></i>Study Buddy</span>
+        <span><i></i>Assessment Tool Validation</span>
+        <span><i></i>RPL &amp; Credit Transfer</span>
+        <span><i></i>Study Buddy</span>
       </div>
       <p class="module-note"><b>Assessment Tool Validation</b> combines Pre-Use Review and Post-Use Validation</p>
       <a class="product-btn" href="https://transposeskills.com" target="_blank" rel="noopener">Visit Transpose Skills &rarr;</a>
     </div>
   </section>
 
-  <section class="contact-section">
+  <section class="contact-section" id="contact">
     <div class="container">
       <div class="contact">
-        Get in touch &mdash; <a href="mailto:hello@transposelabs.ai">hello@transposelabs.ai</a>
+        Get in touch: <a href="mailto:hello@transposelabs.ai">hello@transposelabs.ai</a>
+        <span class="contact-sep">&middot;</span>
+        <a href="tel:+611300250407">1300 250 407</a>
       </div>
       <!-- Google Calendar Appointment Scheduling begin -->
-      <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
       <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
       <div class="scheduler">
         <script>
@@ -508,9 +596,10 @@
         </div>
         <p>Transpose Labs acknowledges the Traditional Owners of the lands on which we work, and recognises their continuing connection to land, sea and community. We pay our respects to Elders past, present and emerging.</p>
       </div>
-      <p class="copyright">&copy; 2026 Transpose Labs Pty Ltd | ABN 72 700 381 595 | 1/457-459 Elizabeth Street, Surry Hills, NSW 2010, Australia</p>
+      <p class="copyright">&copy; <span id="year">2026</span> Transpose Labs Pty Ltd | ABN 72 700 381 595 | 1/457-459 Elizabeth Street, Surry Hills, NSW 2010, Australia | 1300 250 407</p>
     </div>
   </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
 </body>
 </html>
